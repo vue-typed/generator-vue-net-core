@@ -1,6 +1,6 @@
 {
   "name": "generator-vue-net-core",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "yo generator for ASP.Net Core Single Page Application with Vue and Typescript",
   "homepage": "https://github.com/vue-typed/generator-vue-net-core",
   "author": {
