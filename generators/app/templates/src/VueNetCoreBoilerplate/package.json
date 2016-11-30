@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "name": "vuenetcoreboilerplate",
+  "private": true,
+  "scripts": {
+    "update-db:prod": "cd..\\<%= name %>.Repository && dotnet ef database update -e:Production",
+    "update-db:dev": "cd..\\<%= name %>.Repository && dotnet ef database update",
+    "bundle": "webpack --env.prod",
+    "dev": "cross-env ASPNETCORE_ENVIRONMENT=Development dotnet run"
+  },
+  "devDependencies": {
+    "@types/jquery": "^2.0.34",
+    "@types/lodash": "^4.14.40",
+    "@types/node": "^6.0.49",
+    "aspnet-webpack": "^1.0.9",
+    "cross-env": "^3.1.3",
+    "css-loader": "^0.26.0",
+    "file-loader": "^0.9.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript-cs-poco": "^1.11.0",
+    "html-loader": "^0.4.4",
+    "jwt-decode": "^2.1.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "lodash": "^4.17.2",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^1.2.2",
+    "typescript": "^2.0.10",
+    "vue": "^2.1.3",
+    "vue-resource": "^1.0.3",
+    "vue-router": "^2.0.3",
+    "vue-typed": "^2.0.3",
+    "vue-typed-ui": "^1.0.1-alpha",
+    "vuex": "^2.0.0",
+    "webpack": "^2.1.0-beta.9",
+    "webpack-hot-middleware": "^2.13.2"
+  }
+}

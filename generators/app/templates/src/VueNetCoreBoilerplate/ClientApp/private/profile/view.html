@@ -1,0 +1,10 @@
+<div>
+	<ui-input label="Full Name" v-model="fullName"></ui-input>
+	<ui-input label="Email" v-model="email"></ui-input>
+	<ui-date label="Date of birth" v-model="dob" :can-clear="true"></ui-date>
+	<ui-field label="Gender">
+		<ui-radio :val="0" v-model="gender">Male</ui-radio>
+		<ui-radio :val="1" v-model="gender">Female</ui-radio>
+	</ui-field>
+	<ui-button class="positive">Save</ui-button>
+</div>

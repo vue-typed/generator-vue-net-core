@@ -1,0 +1,24 @@
+{
+	"jshint.enable": false,
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/.DS_Store": true,
+		"bin": true,
+		"Controllers": true,
+		"Models": true,
+		"Properties": true,
+		"wwwroot": true,
+		"JWT": true,
+		"obj": true,
+		"Views": true,
+		"AppOptions.cs": true,
+		"project*.json": true,
+		"*.xproj*": true,
+		"*.cs":true,
+		"web.config": true,
+		"Project_Readme.html":true,
+		"appsettings.*":true
+	}
+}

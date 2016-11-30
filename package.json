@@ -1,0 +1,60 @@
+{
+  "name": "generator-vue-net-core",
+  "version": "0.0.0",
+  "description": "yo generator for ASP.Net Core Single Page Application with Vue and Typescript",
+  "homepage": "https://github.com/vue-typed/generator-vue-net-core",
+  "author": {
+    "name": "budiadiono",
+    "email": "budiadiono@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "vue",
+    "asp.net",
+    "core",
+    "typescript",
+    "c#",
+    "vue-typed",
+    "vue-typed-ui",
+    "semantic-ui",
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.23.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.15.0",
+    "gulp": "^3.9.0",
+    "gulp-clean-dest": "^0.1.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-mocha": "^3.0.1",
+    "gulp-nsp": "^2.1.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-replace": "^0.5.4",
+    "recursive-readdir": "^2.1.0",
+    "yeoman-assert": "^2.0.0",
+    "yeoman-test": "^1.0.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "git@github.com:vue-typed/generator-vue-net-core.git",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}

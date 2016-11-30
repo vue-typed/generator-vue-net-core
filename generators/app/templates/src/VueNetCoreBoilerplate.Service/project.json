@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "AutoMapper": "5.1.1",
+    "Microsoft.AspNetCore.Identity": "1.1.0",
+    "NETStandard.Library": "1.6.1",
+    "System.Linq": "4.3.0",
+    "System.Security.Cryptography.Algorithms": "4.3.0",
+    "<%= name %>.Domain": "1.0.0-*",
+    "<%= name %>.Repository": "1.0.0-*"
+  },
+
+  "frameworks": {
+    "netcoreapp1.1": {
+      "imports": [
+        "dotnet5.6",
+        "portable-net45+win8"
+      ]
+    }
+  }
+}

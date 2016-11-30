@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A9E2480F-B2E8-4DD2-9387-1C2E4C2F77E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F51EF779-00C7-4C46-B8D4-E54D38C9D4A4}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "VueNetCoreBoilerplate", "src\VueNetCoreBoilerplate\VueNetCoreBoilerplate.xproj", "{8EFEDC46-1F07-4E82-8E74-9F993680E019}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "VueNetCoreBoilerplate.Service", "src\VueNetCoreBoilerplate.Service\VueNetCoreBoilerplate.Service.xproj", "{16E87308-13D5-4B87-B071-C5B004B0E1C6}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "VueNetCoreBoilerplate.Domain", "src\VueNetCoreBoilerplate.Domain\VueNetCoreBoilerplate.Domain.xproj", "{D3D04285-B0F6-42C1-B916-568EBD43483D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "VueNetCoreBoilerplate.Repository", "src\VueNetCoreBoilerplate.Repository\VueNetCoreBoilerplate.Repository.xproj", "{DD007125-A5F2-495F-9956-BE396983E02B}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "VueNetCoreBoilerplate.Global", "src\VueNetCoreBoilerplate.Global\VueNetCoreBoilerplate.Global.xproj", "{6051042F-82D5-41A6-A1DF-545C028A025E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EFEDC46-1F07-4E82-8E74-9F993680E019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EFEDC46-1F07-4E82-8E74-9F993680E019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EFEDC46-1F07-4E82-8E74-9F993680E019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EFEDC46-1F07-4E82-8E74-9F993680E019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E87308-13D5-4B87-B071-C5B004B0E1C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E87308-13D5-4B87-B071-C5B004B0E1C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E87308-13D5-4B87-B071-C5B004B0E1C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E87308-13D5-4B87-B071-C5B004B0E1C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3D04285-B0F6-42C1-B916-568EBD43483D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D04285-B0F6-42C1-B916-568EBD43483D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D04285-B0F6-42C1-B916-568EBD43483D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D04285-B0F6-42C1-B916-568EBD43483D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD007125-A5F2-495F-9956-BE396983E02B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD007125-A5F2-495F-9956-BE396983E02B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD007125-A5F2-495F-9956-BE396983E02B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD007125-A5F2-495F-9956-BE396983E02B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6051042F-82D5-41A6-A1DF-545C028A025E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6051042F-82D5-41A6-A1DF-545C028A025E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6051042F-82D5-41A6-A1DF-545C028A025E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6051042F-82D5-41A6-A1DF-545C028A025E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8EFEDC46-1F07-4E82-8E74-9F993680E019} = {A9E2480F-B2E8-4DD2-9387-1C2E4C2F77E8}
+		{16E87308-13D5-4B87-B071-C5B004B0E1C6} = {A9E2480F-B2E8-4DD2-9387-1C2E4C2F77E8}
+		{D3D04285-B0F6-42C1-B916-568EBD43483D} = {A9E2480F-B2E8-4DD2-9387-1C2E4C2F77E8}
+		{DD007125-A5F2-495F-9956-BE396983E02B} = {A9E2480F-B2E8-4DD2-9387-1C2E4C2F77E8}
+		{6051042F-82D5-41A6-A1DF-545C028A025E} = {A9E2480F-B2E8-4DD2-9387-1C2E4C2F77E8}
+	EndGlobalSection
+EndGlobal

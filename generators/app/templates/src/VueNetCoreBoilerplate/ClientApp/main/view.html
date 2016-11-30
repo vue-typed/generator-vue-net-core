@@ -1,0 +1,49 @@
+<div id="main" class="">
+
+	<div id="loading" class="ui inverted dimmer">
+    <div class="ui loader"></div>
+  </div>
+
+	<ui-menu-vertical id="main-sidebar" sidebar="true" sidebarToggle="#sidebar-toggle" class="large">
+		<ui-menu-item to="/">Home</ui-menu-item>
+		<ui-menu-item to="/register">Register</ui-menu-item>
+		<ui-menu-item to="/login">Login</ui-menu-item>
+	</ui-menu-vertical>
+
+	<div class="pusher" style="background-color:white">
+		<div class="">
+			<div class="ui secondary pointing menu mobile only">
+
+				<a class="item" id="sidebar-toggle">
+					<i class="sidebar icon"></i>
+				</a>
+
+			</div>
+			<div class="ui container">
+				<ui-menu-horizontal class="large secondary pointing mobile hidden">
+					<ui-menu-item to="/">Home</ui-menu-item>
+					<template v-if="authorized">
+						<ui-menu-item to="/app">App</ui-menu-item>
+						<template v-if="isInRole('SUPER_ADMIN')">
+							<ui-menu-item to="/admin">Admin</ui-menu-item>
+						</template>
+					</template>
+					<div class="right menu">
+						<template v-if="!authorized">
+							<ui-menu-item to="/register">Register</ui-menu-item>
+							<ui-menu-item to="/login">Login</ui-menu-item>
+						</template>
+						<template v-else>
+							<ui-menu-item to="/profile">{{fullName}}</ui-menu-item>
+							<a @click="logout" class="item">Logout</a>							
+						</template>
+					</div>
+				</ui-menu-horizontal>
+				<div class="ui container">
+					<router-view></router-view>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
